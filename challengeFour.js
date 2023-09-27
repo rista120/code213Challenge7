@@ -1,10 +1,11 @@
-let ourMonth = "August";
+let str = "august";
+let ourMonth = str.toUpperCase();
 
 let seasons = {
-  winter: ["December", "January", "February"],
-  spring: ["March", "April", "May"],
-  summer: ["June", "July", "August"],
-  fall: ["September", "October", "November"],
+  winter: ["DECEMBER", "JANUARY", "FEBRUARY"],
+  spring: ["MARCH", "APRIL", "May"],
+  summer: ["JUNE", "JULY", "AUGUST"],
+  fall: ["SEPTEMBER", "OCTOBER", "NOVEMBER"],
 };
 
 let arr = [];
